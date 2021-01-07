@@ -2590,6 +2590,8 @@ input, select, textarea {
 
 	.image {
 		border: 0;
+		border: solid 3px black;
+		background-color: black;
 		display: inline-block;
 		position: relative;
 	}
