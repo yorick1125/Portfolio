@@ -2588,9 +2588,13 @@ input, select, textarea {
 
 /* Image */
 
+	.tools-div{
+		display: flex;
+		justify-content: center;
+	}
+
 	.tools-logos{
-		margin: 5px;
-		margin-top: -60px;
+		margin: auto;
 		height: 50px;
 		width: 50px;
 	}
@@ -4083,6 +4087,8 @@ input, select, textarea {
 	  left: -289px;
 	  /*250+45-6*/
 	}
+
+
   }
   
   @media screen and (max-width: 600px) {
@@ -4119,6 +4125,10 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+	.tools-logos{
+		width: 45px;
+		margin: auto;
+	}
 		#footer input, #footer select, #footer textarea {
 			color: #717981;
 		}
