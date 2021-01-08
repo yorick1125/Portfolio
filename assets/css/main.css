@@ -2588,6 +2588,13 @@ input, select, textarea {
 
 /* Image */
 
+	.tools-logos{
+		margin: 5px;
+		margin-top: -60px;
+		height: 50px;
+		width: 50px;
+	}
+
 	.image {
 		border: 0;
 		border: solid 3px black;
