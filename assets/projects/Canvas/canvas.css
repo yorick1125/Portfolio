@@ -1,0 +1,54 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ #canvas{
+     border: 2px solid black;
+ }
+
+ nav{
+     display: flex;
+     margin: auto;
+ }
+ nav h3{
+     padding-right: 10px;
+ }
+ #Red{
+     background-color: red;
+     padding: 5px;
+ }
+ #Blue{
+    background-color: blue;
+    padding: 5px;
+ }
+ #Green{
+    background-color: green;
+    padding: 5px;
+ }
+ #White{
+    background-color: white;
+    padding: 5px;
+ }
+ #Black{
+    background-color: black;
+    color: white;
+    padding: 5px;
+ }
+ #Clear{
+     padding: 5px;
+ }
+
+ .colors{
+     display: flex;
+ }
+ .sizes{
+     margin-left: auto;
+     display: flex;
+     padding: 5px ;
+ }
+
+ #Small, #Medium, #Large{
+     margin: auto;
+ }
