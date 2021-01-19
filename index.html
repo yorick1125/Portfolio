@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+
 	</head>
 	<body class="is-preload">
 
@@ -194,6 +196,11 @@
 										<textarea name="message" id="message" rows="3"></textarea>
 									</div>
 								</div>
+								<button class="g-recaptcha" 
+							        data-sitekey="reCAPTCHA_site_key" 
+        							data-callback='onSubmit' 
+						        	data-action='submit'>Submit</button>
+
 								<ul class="actions">
 									<li><input type="submit" value="Send Message"/><input type="reset" value="Clear"></li>
 								</ul>
@@ -236,6 +243,12 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/contact.js"></script>
+
+			<script>
+				function onSubmit(token) {
+					document.getElementById("my-form").submit();
+				}
+			</script>
 
 	</body>
 </html>
