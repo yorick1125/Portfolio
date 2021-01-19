@@ -11,7 +11,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://www.google.com/recaptcha/api.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -62,7 +61,7 @@
 									<h2><a href="assets/projects/flashcards_app.zip">Flashcards Application</a></h2>
 									<p style="font-weight: bold; text-decoration: underline;">C# | Written in Collaboration with Michael Dumas</p>
 								</header>
-								<a href="assets/projects/flashcards_app.zip" class="image main"><img src="images/flashcards.png" alt="" /></a>
+								<a href="assets/projects/flashcards_app.zip" class="image main"><img style="border: solid 3px black;" src="images/flashcards.png" alt="" /></a>
 								<ul class="actions special">
 									<li><a href="assets/projects/flashcards_app.zip" class="button large">Download</a><a href="assets/projects/Flashcards.zip" class="button large">View Code</a></li>
 								</ul>
@@ -76,7 +75,7 @@
 										<h1 class="date">Python</h1>
 										<h2><a href="assets/projects/pathfinding.py">Path Finding Visualizer</a></h2>
 									</header>
-									<a href="assets/projects/pathfinding.py" class="image fit"><img src="images/pathfinding.png" alt="impossible_game_img" /></a>
+									<a href="assets/projects/pathfinding.py" class="image fit"><img style="border: solid 3px black;" src="images/pathfinding.png" alt="impossible_game_img" /></a>
 									<p>Using Pygame library, this program allows the user to choose a starting node and end node, as well as drawing barriers. Using A* algorithm (f() = g() + h()), the program then visualizes how the algorithm proceeds to find the shortest route. <br><br> Python 3.0 is required 
 										 </p>
 									<ul class="actions special">
@@ -89,7 +88,7 @@
 										<h1 class="date">C++</h1>
 										<h2><a href="assets/projects/SortingVisualizer.exe">Sorting Algorithm Visualizer</a></h2>
 									</header>
-									<a href="assets/projects/SortingVisualizer.exe" class="image fit"><img src="images/sorting.png" alt="impossible_game_img" /></a>
+									<a href="assets/projects/SortingVisualizer.exe" class="image fit"><img style="border: solid 3px black;" src="images/sorting.png" alt="impossible_game_img" /></a>
 									<p>A simple C++ program that displays a visual to show how sorting algorithms work.  </p>
 									<ul class="actions special">
 										<li><a href="assets/projects/SortingVisualizer.exe" class="button">Download</a><a href="assets/projects/SortingVisualizer.zip" class="button">View Code</a></li>
@@ -196,10 +195,6 @@
 										<textarea name="message" id="message" rows="3"></textarea>
 									</div>
 								</div>
-								<button class="g-recaptcha" 
-							        data-sitekey="reCAPTCHA_site_key" 
-        							data-callback='onSubmit' 
-						        	data-action='submit'>Submit</button>
 
 								<ul class="actions">
 									<li><input type="submit" value="Send Message"/><input type="reset" value="Clear"></li>
@@ -244,11 +239,7 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/contact.js"></script>
 
-			<script>
-				function onSubmit(token) {
-					document.getElementById("my-form").submit();
-				}
-			</script>
+
 
 	</body>
 </html>
